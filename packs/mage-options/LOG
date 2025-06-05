@@ -1,0 +1,9 @@
+2025/05/31-12:03:42.864 1dd0 Recovering log #64
+2025/05/31-12:03:42.864 1dd0 Level-0 table #67: started
+2025/05/31-12:03:42.874 1dd0 Level-0 table #67: 355745 bytes OK
+2025/05/31-12:03:42.874 1dd0 Delete type=0 #64
+2025/05/31-12:03:42.874 1dd0 Delete type=3 #62
+2025/05/31-12:08:03.631 2a2c Compacting 1@0 + 1@1 files
+2025/05/31-12:08:03.667 2a2c Generated table #69@0: 1301 keys, 880980 bytes
+2025/05/31-12:08:03.667 2a2c Compacted 1@0 + 1@1 files => 880980 bytes
+2025/05/31-12:08:03.671 2a2c compacted to: files[ 0 1 0 0 0 0 0 ]

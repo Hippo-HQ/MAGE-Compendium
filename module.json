@@ -1,0 +1,63 @@
+{
+  "id": "modern-age-v12",
+  "title": "Modern AGE V12",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "age-system",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Paul Shaw",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "mage-compendium",
+      "label": "MAGE Compendium",
+      "path": "packs/mage-compendium",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "age-system",
+      "flags": {}
+    },
+    {
+      "name": "mage-options",
+      "label": "MAGE Options",
+      "path": "packs/mage-options",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "age-system",
+      "flags": {}
+    },
+    {
+      "name": "mage-adversaries",
+      "label": "MAGE Adversaries",
+      "path": "packs/mage-adversaries",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "age-system",
+      "flags": {}
+    }
+  ]
+}
